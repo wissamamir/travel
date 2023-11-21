@@ -1,0 +1,72 @@
+body {
+    background-color: #102835;
+}
+.App {
+    padding: 100px;
+    background: #122c39;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 2px 9px 36px 3px;
+}
+.App h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 11px 1px;
+    border-radius: 8px;
+    padding: 12px 0;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-container form input {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.form-container form button {
+    width: 50%;
+    padding: 10px 3px;
+    border: none;
+    outline: none;
+    margin: auto;
+    border-radius: 7px;
+    color: white;
+    background-color: #052535;
+    font-weight: 700;
+}
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background: #052535;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 80%;
+}
+p.error {
+    width: 80%;
+    background: darkred;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
